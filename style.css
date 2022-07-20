@@ -46,7 +46,7 @@ hr{
     min-height: 300px;
 }
 
-.imagem{
+.imagem, #imgPokemon{
     text-align: center;
 }
 
@@ -80,4 +80,24 @@ hr{
     color: white;
     letter-spacing: 1px;
     cursor: pointer;
+}
+
+#imgPokemon img{
+    width: 90px;
+    border: 1px solid #333;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px;
+    margin: 10px;
+}
+
+#content{
+    font-family: monospace;
+    padding: 10px;
+    background-color: #ffcc01;
+    border: 1px solid #c8a102;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: center;
+    color: #333;
 }
