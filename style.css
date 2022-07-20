@@ -18,7 +18,7 @@ body{
     align-items: center;
     justify-content: center;
     font-family: Poppins;
-    font-weight: bold;
+    font-weight: 900;
 }
 
 h1{
@@ -52,4 +52,32 @@ hr{
 
 .imagem img{
     width: 90%;
+}
+
+.group-form{
+    padding: 5px 0;
+}
+
+.group-form label{
+    font-weight: 900;
+    color: #1b356e;
+}
+
+.group-form input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-family: Poppins;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+.group-form input[type= submit]{
+    background-color: #1b356e;
+    font-weight: 900;
+    font-size: 1rem;
+    color: white;
+    letter-spacing: 1px;
+    cursor: pointer;
 }
